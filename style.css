@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: darkcyan;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    background-color: cornflowerblue;
+    padding: 20px 40px;
+    border-radius: 10px 30px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button#increaseButton{
+    background-color: royalblue;
+}
+
+button#decreaseButton{
+    background-color: brown;
+}
+
+button#ResetButton{
+    background-color: darkslategrey;
+}
